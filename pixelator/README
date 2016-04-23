@@ -1,0 +1,13 @@
+author: Kashif Ahmadi
+
+Compiling
+- place P3.java, GUI.java and Menu.java in the same directory
+- type 'make compile' to compile
+
+Running
+- type 'make run'
+- click "Load Image" and select 'jurassic-bark.jpg'
+
+Cleaning
+- type 'make clean'
+

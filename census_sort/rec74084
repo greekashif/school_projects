@@ -1,0 +1,11 @@
+ahmadi_proj5:
+total 168
+-rw-r--r--. 1 temp 105773 Apr 27 03:17 censusData.csv
+-rw-r--r--. 1 temp   3871 Apr 27 15:52 Census.java
+-rw-r--r--. 1 temp    172 Apr 27 15:57 makefile
+-rw-r--r--. 1 temp  43460 Apr 27 15:51 P5_Experimental_Writeup.pdf
+-rw-r--r--. 1 temp    297 Apr 27 16:00 README
+-rw-r--r--. 1 temp      0 Apr 27 16:00 rec74084
+-rw-r--r--. 1 temp   3776 Apr 27 15:51 SortExperiment.java
+-rw-r--r--. 1 temp   3784 Apr 27 15:52 Sorting.java
+/home/temps/ahmadi/ahmadi_proj5:/home/work/cs1302a

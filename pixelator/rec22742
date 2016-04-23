@@ -1,0 +1,20 @@
+ahmadi_proj3:
+total 276
+-rw-r--r--. 1 temp    160 Mar 31 23:51 GUI$1.class
+-rw-r--r--. 1 temp    758 Mar 31 23:51 GUI$ButtonListener.class
+-rw-r--r--. 1 temp   2927 Mar 31 23:51 GUI.class
+-rw-r--r--. 1 temp    919 Mar 31 23:51 GUI$ComboListener.class
+-rw-r--r--. 1 temp   5177 Mar 31 23:51 GUI.java
+-rw-r--r--. 1 temp   1887 Mar 31 23:51 GUI$LoadListener.class
+-rw-r--r--. 1 temp    621 Mar 31 23:51 GUI$ResetListener.class
+-rw-r--r--. 1 temp 160970 Mar 31 19:34 jurassic-bark.jpg
+-rw-r--r--. 1 temp     66 Mar 31 19:34 Makefile
+-rw-r--r--. 1 temp   1980 Mar 31 23:51 Menu.class
+-rw-r--r--. 1 temp   1649 Mar 31 19:34 Menu.java
+-rw-r--r--. 1 temp    937 Mar 31 23:51 P3.class
+-rw-r--r--. 1 temp    543 Mar 31 19:33 P3.java
+-rw-r--r--. 1 temp  55059 Mar 31 19:35 P3_user_manual.pdf
+-rw-r--r--. 1 temp    238 Mar 31 19:34 README
+-rw-r--r--. 1 temp      0 Mar 31 23:51 rec22742
+-rw-r--r--. 1 temp    476 Mar 31 19:48 rec61478
+/home/temps/ahmadi/ahmadi_proj3:/home/work/cs1302a

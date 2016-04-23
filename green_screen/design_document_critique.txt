@@ -1,0 +1,17 @@
+Kashif Ahmadi
+810178315
+Design Document Critique
+
+Loading and reading the image files was pretty straightforward 
+and the design doc helped organize this nicely. But I needed
+a bit more detail on how to approach manipulating the pixels.
+I was far too vague in this respect.
+
+The manner in which I manipulated the pixels doesn't sit well
+with me. It seems incredibly inefficient to create a new
+object (Color) when going each element of a 2D array. I guess
+it is passable for small images, but I can't image it scaling
+well in higher resolutions. I think manipulating the image buffer
+using the ColorModel class may be a better approach.
+
+

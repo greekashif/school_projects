@@ -1,0 +1,19 @@
+Kashif Ahmadi
+ntropy@uga.edu
+
+
+NOTE: compiler will give a warning but the program will run fine
+Compilation includes javadoc creation
+
+Compilation instructions:
+-	place *.java files in current directory
+-	type 'make' or 'make compile'
+
+Running:
+-	type 'make run'
+
+Cleaning:
+-	type 'make clean'
+
+
+
