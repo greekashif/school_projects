@@ -1,0 +1,17 @@
+Kashif Ahmadi
+Jia Chen
+
+Compiling:
+
+	Place all the .java files and image files are in working directory
+	Type: 'make compile' to compile
+
+Running:
+
+	Type: 'make run' to run the program
+
+Clean:
+
+	Type: 'make clean' to remove class files
+
+
