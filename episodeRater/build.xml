@@ -1,0 +1,48 @@
+<project name="Episode_Rater" default="deploy">
+   <target name="compile">
+      <javac srcdir="src" destdir="classes">
+      	<classpath>
+      		<pathelement location=
+                "/usr/share/java/tomcat6-servlet-2.5-api-6.0.24.jar"/>
+      	</classpath>
+      </javac>
+   </target>
+   
+   <target name="test_compile" depends="compile">
+      <javac srcdir="test_src" destdir="test_classes">
+         <classpath>
+            <pathelement location="/usr/share/java/junit4.jar"/>
+            <pathelement location="classes"/>
+         </classpath>
+      </javac>
+   </target>
+
+   <target name="test" depends="test_compile">
+      <junit printsummary="on">
+         <formatter type="plain" usefile="no"/>
+         <classpath>
+            <pathelement location="/usr/share/java/junit4.jar"/>
+            <pathelement location="classes"/>
+            <pathelement location="lib"/>
+            <pathelement location="test_classes"/>
+            <pathelement location="/usr/share/java/mysql-connector-java.jar"/>
+            <pathelement location=
+                "/usr/share/java/mysql-connector-java-5.1.17.jar"/>
+         </classpath>
+         <test name="rater.LoginHelperTest"/> 
+         <test name="rater.TVShowHelperTest"/>
+         <test name="rater.ReviewTest"/>
+         <test name="rater.TVShowTest"/>
+         <test name="rater.EpisodeTest"/>
+         <test name="rater.UserHelperTest"/> 
+      </junit>
+   </target> 
+
+   <target name="deploy" depends="test">
+      <war webxml="web.xml" destfile="Episode_Rater.war" basedir="web">
+         <classes dir="classes"/>
+         <lib dir="lib"/>
+      </war>
+      <copy file="Episode_Rater.war" todir="/var/lib/tomcat6/webapps"/>
+   </target>
+</project>
