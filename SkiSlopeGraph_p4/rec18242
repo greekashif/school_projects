@@ -1,0 +1,11 @@
+p4:
+total 1592
+-rw-r--r--. 1 temp 1603165 Nov  9 16:05 depth6.txt
+-rw-r--r--. 1 temp     335 Nov  9 22:20 input.txt
+-rw-r--r--. 1 temp     240 Nov  9 22:14 main.cpp
+-rw-r--r--. 1 temp     197 Nov  9 16:04 makefile
+-rw-r--r--. 1 temp     170 Nov  9 22:21 README
+-rw-r--r--. 1 temp       0 Nov  9 22:26 rec18242
+-rw-r--r--. 1 temp     783 Nov  9 22:14 SkiSlope.cpp
+-rw-r--r--. 1 temp     331 Nov  9 22:15 SkiSlope.h
+/home/temps/ahmadi/p4:/home/work/cs2720a

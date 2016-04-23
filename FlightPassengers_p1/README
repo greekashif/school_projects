@@ -1,0 +1,10 @@
+This is a program that manages lists of flights in which each flight corresponds to a list of passengers - a list within a list.
+I chose to implement class for the flight, passenger, stack and queues to
+preserve data integrity. Employing all these classes within the LinkedList
+class gives the program cohesiveness.
+
+INSTRUCTIONS
+
+Compiling:	type "make" 
+Run:		type "make run"
+Clean:		type "maek clean"	

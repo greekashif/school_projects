@@ -1,0 +1,15 @@
+To compile:		"make" or "make compile"
+To run:			"make run"
+To clean:		"make clean"
+
+This program generates all the possible moves given a certain board position
+in the game Tic-Tac-Toe.
+
+I chose to generate the tree using preorder style algorithm. Starting at
+the root, I generate all the possible first moves which are added to a vector.
+Then I recursively call the same function on each of these children and their
+descendents and so on until the game is won or tied. After this, I traverse
+the tree using a level order algorithm with the C++ STL <queue> data structure
+for convenience.
+I chose the Node and Tree data types to be classes to preserve data integrity
+as much as possible.

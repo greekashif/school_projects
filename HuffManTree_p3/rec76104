@@ -1,0 +1,12 @@
+p3:
+total 68
+-rwxr-xr-x. 1 temp 35587 Oct 27 23:57 a.out
+-rw-------. 1 temp  4022 Oct 27 23:37 Huffman.cpp
+-rw-------. 1 temp   761 Oct 27 23:17 Huffman.h
+-rw-r--r--. 1 temp   496 Oct 27 23:52 library.txt
+-rw-------. 1 temp  1532 Oct 27 23:17 main.cpp
+-rw-r--r--. 1 temp    69 Oct 27 23:17 makefile
+-rw-r--r--. 1 temp   537 Oct 27 23:17 README
+-rw-r--r--. 1 temp     0 Oct 27 23:57 rec76104
+-rw-------. 1 temp  8170 Oct 27 23:17 sample.txt
+/home/temps/ahmadi/p3:/home/work/cs2720a

@@ -1,0 +1,13 @@
+This program builds a Huffman encoding table from a sample text file.
+From the table the program can encode/decode user defined messages.
+
+I decided to use a Node class to store each letter and combination of letters
+and their frequencies in order to preserve data integrity. For similar reasons
+I used a Tree class to hold the nodes of the frequency char. I stored the nodes
+in a vector, because manipulation with vectors is straight-forward and flexible.
+
+
+To compile: type 'make'
+To run:		type './a.out'
+To clean: 	type 'make clean'
+

@@ -1,0 +1,6 @@
+I chose an inefficient algorithm in n^2 polynomial time, because I'm a
+procrastinating fool.
+
+To compile: type 'make'
+To clean: type 'make clean'
+To run: type 'make run'
